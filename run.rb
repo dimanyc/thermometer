@@ -2,7 +2,7 @@ require_relative './lib/thermometer.rb'
 t = Thermometer.new
 puts 'Please enter current temperature'
 t.current_temperature = gets.to_i
-puts 'Please enter desired temperatuje'
+puts 'Please enter desired temperature'
 t.desired_temperature = gets.to_i
 t.adjust_temperature
 puts 'Fans\'s state is being set to:'
